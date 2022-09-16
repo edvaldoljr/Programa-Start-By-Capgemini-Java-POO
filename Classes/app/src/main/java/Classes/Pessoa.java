@@ -10,6 +10,10 @@ public class Pessoa {
     private float peso;
     private float altura;
     
+    public Pessoa(){
+        
+    }
+    
     public Pessoa(float peso, float altura){
         this.peso = peso;
         this.altura = altura;
@@ -35,6 +39,4 @@ public class Pessoa {
     public void setAltura(float altura) {
         this.altura = altura;
     }
-    
-    
 }
