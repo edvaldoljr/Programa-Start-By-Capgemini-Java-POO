@@ -10,6 +10,11 @@ public class Vendedor extends Funcionario {
     public Vendedor(){
         super();
     }
+    
+    
+    public float calcularSalario() {
+        return super.getSalario() + (this.comissaoPorItem * this.TotalItensVendidos);
+    }
 
     public int getTotalItensVendidos() {
         return TotalItensVendidos;
